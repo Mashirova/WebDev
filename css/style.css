@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-SemiBold.eot');
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+      url('../fonts/Gilroy/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-SemiBold.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-Medium.eot');
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+      url('../fonts/Gilroy/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-Medium.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-Bold.eot');
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+      url('../fonts/Gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  margin-left: 3.75rem;
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #313131;
+}
+
+.nav a{
+  font-family: 'Gilroy';
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313131;
+}
+
+.btn-btn a {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.btn {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 21px;
+  color: #313131;
+}
+
+.green-btn {
+  color: #FFFFFF;
+  margin-left: 30px;
+  margin-right: 3.75rem;
+  padding: 18px 45px;
+  background: #49AD09;
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+  border-radius: 5px;
+}
